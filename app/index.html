@@ -1,18 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/libs.min.css">
   <link rel="stylesheet" href="css/style.min.css">
   <title>Document</title>
 </head>
-<body>
-<div class="box"></div>
 
+<body>
+
+  <header class="header">
+    <div class="header__top">
+      <div class="container">
+        <div class="header__top-inner">
+          <div class="logo">
+            <a class="logo__link" href="#">
+              <img class="logo__img" src="images/logo.png" alt="logo">
+            </a>
+          </div>
+          <div class="top-menu">
+            <a class="btn top-menu__btn" href="#">Become a Seller</a>
+            <a class="top-menu__notific" href="#">
+              <span class=top-menu__notific-nambr>25</span>
+            </a>
+            <a class="top-menu__messages" href="#">
+              <span class="top-menu__messages-nambr">6</span>
+            </a>
+            <a class="top-menu__cart" href="#">
+              <span class="top-menu__cart-nambr">2</span>
+            </a>
+            <a class="user" href="#">
+              <img class="user__img" src="images/user.jpg" alt="avatarka">
+            </a>
+            <div class="user-name">
+              <a class="user-name__avatarka" href="#">Taofiq Hakim</a>
+              <span class="user-name__price">$20.45</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main-menu">
+      <div class="container">
+        <div class="main-menu__inner">
+          <nav class="nav">
+            <ul class=nav__list>
+              <li class="nav__list-item">
+                <a class="nav__list-link" href="#">HOME</a>
+              </li>
+              <li class="nav__list-item">
+                <a class="nav__list-link" href="#">all products</a>
+              </li>
+              <li class="nav__list-item">
+                <a class="nav__list-link" href="#">wordpress</a>
+              </li>
+              <li class="nav__list-item">
+                <a class="nav__list-link" href="#">festures</a>
+              </li>
+              <li class="nav__list-item">
+                <a class="nav__list-link" href="#">Pages</a>
+              </li>
+            </ul>
+          </nav>
+          <form class="header__form">
+            <input class="header__form-search" type="text" placeholder="Search product here..." required>
+            <button class="header__form-btn" type="submit"></button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="product-digital">
+      <div class="container">
+        <div class="product-digital__box">
+          <div class="product-digital__box-title">Create Your Own</div>
+          <div class="product-digital__box-subtitle">Digital Product Marketplace</div>
+          <p class="product-digital__box-text">MartPlace is the most powerful, & customizable template for Easy
+            Digital Downloads Products</p>
+          <a class="btn product-digital__btn-all" href="#">View All Products</a>
+          <a class="btn product-digital__btn-popular" href="#">Popular Products</a>
+        </div>
+      </div>
+      <div class="container">
+        <div class="product-digital__inner">
+          <div class="product-digital__item">
+            <div class="product-digital__form-inner">
+              <form class="product-digital__form">
+                <input class="product-digital__input" type="text" placeholder="Search your products..." required>
+                <select class="product-digital__select" name="" id="">
+                  <option class="product-digital__option" value="">All Categories</option>
+                </select>
+              </form>
+              <button class="product-digital__btn" type="submit">Search Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="libs.min.js"></script>
   <script src="main.min.js"></script>
 </body>
+
 </html>
