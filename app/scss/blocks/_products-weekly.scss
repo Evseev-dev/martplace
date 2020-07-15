@@ -57,9 +57,15 @@
   font-weight: 500;
   color: #000;
   margin-bottom: 16px;
+  transition: all .2s ease-out;
+  &:hover {
+    color: $blue;
+  }
 }
 
-.wordpress {
+.wordpress,
+.psd,
+.html {
   position: relative;
   &::before {
     content: "";
@@ -75,6 +81,18 @@
   }
 }
 
+.psd {
+  &::before {
+    background-image: url(../images/icons/psd.png);
+  }
+}
+
+.html {
+  &::before {
+    background-image: url(../images/icons/html.png); 
+  }
+}
+
 .products-weekly__item-buttons {
   border-bottom: 1px solid #ececec;
   padding-bottom: 44px;
@@ -84,6 +102,11 @@
   background-color: #f1f3f6;
   color: #868c96;
   padding: 0px 18px;
+  transition: all .3s ease-out;
+  &:hover {
+    background-color: $blue;
+    color: $white;
+  }
 }
 
 .products-weekly__item-prise {

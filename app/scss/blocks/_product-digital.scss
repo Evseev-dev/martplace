@@ -29,28 +29,19 @@
   padding: 14px 32px;
 }
 
-.product-digital__btn-all {
-  margin-right: 10px;
-  background-color: $white;
-  color: $blue;
-  transition: all .5s;
-  &:hover {
-    background-color: transparent;
-    border: 1px solid $white;
-    color: $white;
-  }
-}
-
+.product-digital__btn-all,
 .product-digital__btn-popular {
   background-color: transparent;
+  margin-right: 10px;
   border: 1px solid $white;
-  transition: all .5s;
+  color: $white;
+  transition: all .3s ease-out;
   &:hover {
     background-color: $white;
-    border: none;
     color: $blue;
   }
 }
+
 
 .product-digital__inner {
   position: relative;

@@ -13,11 +13,14 @@ $(function(){
     nextArrow: '<button type="button" class="slick-next slick-btn"><img class="slick-img" src="images/icons/chevron-right.svg" alt=""></button>'
   });
 
+  $('.products-newest__filter').on('click', function(){
+    $('.products-newest__dropdown-inner').slideToggle();
+  });
 
   $('.products-weekly__item').css(
     'display',''
   );
 
-
+  var mixer = mixitup('.product-card__inner');
 
 });
